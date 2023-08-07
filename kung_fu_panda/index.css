@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'kung';
+    src: url(./font/KungFuPandaRegular-xYjV.ttf);
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(./font/Inter-Medium.ttf);
+}
+
+video{
+    position: absolute;
+    z-index: -99;
+}
+
+#opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 60%;
+    z-index: -98;
+}
+
+nav{
+    width: 100%;
+    height: 86px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-nav{
+    width: 1731px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    font-family: 'kung';
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-left: 60px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+li:hover, .botoes > img:hover{
+    transform: scale(1.1);
+}
+
+.redes{
+    width: 225px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    transform: scale(0.8);
+}
+
+.lorde{
+    width: 648px;
+    height: 314px;
+    margin: 268px 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    width: 100%;
+    height: 71px;
+    color: white;
+    font-family: 'kung';
+    font-size: 78px;
+    line-height: 71px;
+    display: flex;
+}
+
+p{
+    height: 132px;
+    width: 100%;
+    color: white;
+    font-family: 'inter';
+    text-align: right;
+    font-size: 18px;
+    line-height: 22px;
+    width: 450px;
+    margin-left: 29%;
+}
+
+.botoes{
+    width: 100%;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.passarinho{
+    position: absolute;
+    top: 263px;
+    left: 230px;
+}
